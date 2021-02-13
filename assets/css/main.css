@@ -11,8 +11,8 @@ body{
 }
 
 html {
- scroll-behavior : smooth;
-} 
+    scroll-behavior: smooth;
+}
 
 .banner{
     height: auto;
@@ -31,21 +31,7 @@ html {
     font-size: 1.5rem;
     
 }
-/* .banner .info{
-    margin-top: 15%;
-    margin-left: 25%;
-    color: whitesmoke;
-    
-} */
 
-/* .banner .info a{
-    margin-left: 42%;
-    color: whitesmoke;
-    background: blue;
-    padding: 10px 20px;
-    
-
-} */
 
 .container.info  {
     padding-top: 175px;
@@ -54,6 +40,15 @@ html {
 
 .section {
     color: blue;
+
+}
+
+.icon a i {
+    color: white;
+
+}
+.icon a i:hover {
+    color: tomato!important;
 
 }
 
