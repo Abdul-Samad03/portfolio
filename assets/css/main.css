@@ -3,12 +3,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
+
+html, body {
+  overflow-x:hidden 
+} 
+
 body{
     margin: 0;
     padding: 0;
     color: white;
-    overflow-x: hidden;
 }
 
 html {
@@ -47,7 +52,7 @@ html {
 
 .container.info img {
     height: 16rem;
-    padding-left: 100px;
+    padding-left: 10px;
     padding-top: 50px;
 }
 
@@ -76,7 +81,14 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+.btn :hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: tomato;
+    background-color:tomato;
 
-@media (max-width : 568px){
-  
 }
+
+
+@media (max-width: 568px){
+
+}
+
